@@ -15,7 +15,8 @@ function init(){
 	height: 800,  //    默认转化为数字类型  没有该属性时 默认300px
 	width: '1600',  // auto 100%  转换为数字都为NaN   没有该属性时 默认300px
 	navigation: true,
-	disableSpin: false
+	disableSpin: false,
+	inverted: true
   });
 
 }
