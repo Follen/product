@@ -9,7 +9,7 @@ function init(){
 	currentFrame: 1,
 	imgList: '.threesixty_images',
 	progress: '.spinner',
-	imagePath:'img/',  //图片所在路径，最后一定要有/。如果图片有前缀，也可以写在/后
+	imagePath:'http://r1xoa4pfm.bkt.gdipper.com/',  //图片所在路径，最后一定要有/。如果图片有前缀，也可以写在/后
 	filePrefix: '',
 	ext: '.png',
 	height: 800,  //    默认转化为数字类型  没有该属性时 默认300px
