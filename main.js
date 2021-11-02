@@ -4,7 +4,7 @@ var product;
 function init(){
 
   product1 = $('.product1').ThreeSixty({
-	totalFrames: 30,   //图片个数，一定要与图片个数一致
+	totalFrames: 31,   //图片个数，一定要与图片个数一致
 	endFrame: 31,
 	currentFrame: 1,
 	imgList: '.threesixty_images',
