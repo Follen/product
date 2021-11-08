@@ -4,7 +4,7 @@ var product;
 function init(){
 
   product1 = $('.product1').ThreeSixty({
-	totalFrames: 31,   //图片个数，一定要与图片个数一致
+	totalFrames: 31,  //图片个数，一定要与图片个数一致
 	endFrame: 31,
 	currentFrame: 1,
 	imgList: '.threesixty_images',
@@ -12,11 +12,10 @@ function init(){
 	imagePath:'img/',  //图片所在路径，最后一定要有/。如果图片有前缀，也可以写在/后
 	filePrefix: '',
 	ext: '.png',
-	height: 800,  //    默认转化为数字类型  没有该属性时 默认300px
-	width: '1600',  // auto 100%  转换为数字都为NaN   没有该属性时 默认300px
+	height: 1246,  //    默认转化为数字类型  没有该属性时 默认300px
+	width: '576',  // auto 100%  转换为数字都为NaN   没有该属性时 默认300px
 	navigation: true,
-	disableSpin: false,
-	inverted: true
+	disableSpin: false
   });
 
 }
